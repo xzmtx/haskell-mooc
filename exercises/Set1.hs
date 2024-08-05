@@ -64,7 +64,9 @@ distance = todo
 -- Ps. have a look at the built in function "even"
 
 eeny :: Integer -> String
-eeny = todo
+eeny x
+    | even x == True = "eeny"
+    | otherwise = "meeny"
 
 ------------------------------------------------------------------------------
 -- Ex 6: here's the function checkPassword from the course material.
